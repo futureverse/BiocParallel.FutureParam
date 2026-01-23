@@ -1,7 +1,7 @@
 
 
 <div id="badges"><!-- pkgdown markup -->
- <a href="https://github.com/HenrikBengtsson/BiocParallel.FutureParam/actions?query=workflow%3AR-CMD-check"><img border="0" src="https://github.com/HenrikBengtsson/BiocParallel.FutureParam/actions/workflows/R-CMD-check.yaml/badge.svg?branch=develop" alt="R CMD check status"/></a>    <a href="https://ci.appveyor.com/project/HenrikBengtsson/biocparallel-futureparam"><img border="0" src="https://ci.appveyor.com/api/projects/status/github/HenrikBengtsson/BiocParallel.FutureParam?svg=true" alt="Build status"/></a> <a href="https://app.codecov.io/gh/HenrikBengtsson/BiocParallel.FutureParam"><img border="0" src="https://codecov.io/gh/HenrikBengtsson/BiocParallel.FutureParam/branch/develop/graph/badge.svg" alt="Coverage Status"/></a> <a href="https://lifecycle.r-lib.org/articles/stages.html"><img border="0" src="man/figures/lifecycle-experimental-orange.svg" alt="Life cycle: experimental"/></a>
+ <a href="https://github.com/futureverse/BiocParallel.FutureParam/actions?query=workflow%3AR-CMD-check"><img border="0" src="https://github.com/futureverse/BiocParallel.FutureParam/actions/workflows/R-CMD-check.yaml/badge.svg?branch=develop" alt="R CMD check status"/></a>    <a href="https://ci.appveyor.com/project/futureverse/biocparallel-futureparam"><img border="0" src="https://ci.appveyor.com/api/projects/status/github/futureverse/BiocParallel.FutureParam?svg=true" alt="Build status"/></a> <a href="https://app.codecov.io/gh/futureverse/BiocParallel.FutureParam"><img border="0" src="https://codecov.io/gh/futureverse/BiocParallel.FutureParam/branch/develop/graph/badge.svg" alt="Coverage Status"/></a> <a href="https://lifecycle.r-lib.org/articles/stages.html"><img border="0" src="man/figures/lifecycle-experimental-orange.svg" alt="Life cycle: experimental"/></a>
 </div>
 
 # BiocParallel.FutureParam: Use Futures with BiocParallel 
@@ -200,9 +200,9 @@ If that works, but not with `register(FutureParam())`, then it's a bug in the **
 [future.callr]: https://cran.r-project.org/package=future.callr
 
 ## Installation
-R package BiocParallel.FutureParam is only available via [GitHub](https://github.com/HenrikBengtsson/BiocParallel.FutureParam) and can be installed in R as:
+R package BiocParallel.FutureParam is only available via [GitHub](https://github.com/futureverse/BiocParallel.FutureParam) and can be installed in R as:
 ```r
-remotes::install_github("HenrikBengtsson/BiocParallel.FutureParam", ref="master")
+remotes::install_github("futureverse/BiocParallel.FutureParam", ref="master")
 ```
 
 
@@ -210,7 +210,7 @@ remotes::install_github("HenrikBengtsson/BiocParallel.FutureParam", ref="master"
 
 To install the pre-release version that is available in Git branch `develop` on GitHub, use:
 ```r
-remotes::install_github("HenrikBengtsson/BiocParallel.FutureParam", ref="develop")
+remotes::install_github("futureverse/BiocParallel.FutureParam", ref="develop")
 ```
 This will install the package from source.  
 
