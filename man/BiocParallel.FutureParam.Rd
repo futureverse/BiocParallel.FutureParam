@@ -2,6 +2,7 @@
 % Please edit documentation in R/BiocParallel.FutureParam-package.R
 \docType{package}
 \name{BiocParallel.FutureParam}
+\alias{BiocParallel.FutureParam-package}
 \alias{BiocParallel.FutureParam}
 \title{BiocParallel.FutureParam: A BiocParallelParam class using Futures}
 \description{
@@ -42,4 +43,22 @@ print(x)
 ## error when running this example with plan(multisession), unless we
 ## reset the future plan at the end.
 plan(sequential)
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://BiocParallel.FutureParam.futureverse.org}
+  \item \url{https://github.com/HenrikBengtsson/BiocParallel.FutureParam}
+  \item Report bugs at \url{https://github.com/HenrikBengtsson/BiocParallel.FutureParam/issues}
+}
+
+}
+\author{
+\strong{Maintainer}: Henrik Bengtsson \email{henrikb@braju.com} [copyright holder]
+
+Other contributors:
+\itemize{
+  \item Ryan Thompson [contributor]
+}
+
 }
